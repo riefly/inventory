@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('test/db', 'TestController@testDBConnection');
+
 Route::get('/', function () {
     return view('welcome');
 });
